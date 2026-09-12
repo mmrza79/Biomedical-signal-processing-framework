@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Environments and editors
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Research data (retain directory placeholders only)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated outputs (retain directory placeholders only)
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+results/models/*
+!results/models/.gitkeep
+
